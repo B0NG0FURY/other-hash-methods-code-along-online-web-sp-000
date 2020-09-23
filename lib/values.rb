@@ -8,15 +8,16 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
-def get_the_keys(hash)
-  hash.keys
+def get_the_keys(groceries)
+  groceries.keys
 end
 
-def get_the_min(hash)
+def get_the_min(groceries)
   
 end
 
 def get_the_values(groceries)
   #code your solution here!
-  
+  groceries.values
+  binding.pry
 end
