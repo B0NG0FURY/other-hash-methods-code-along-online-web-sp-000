@@ -12,6 +12,10 @@ def get_the_keys(hash)
   hash.keys
 end
 
+def get_the_min(hash)
+  
+end
+
 def get_the_values(groceries)
   #code your solution here!
   
